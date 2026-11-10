@@ -1,0 +1,58 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css");
+
+html{
+    font-size: 16px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+:root{
+    --color-primario:rgb(29, 59, 57);
+    --color-secundario:rgb(199, 197, 197);
+}
+
+.columna-inf {
+    padding: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.seccion-historias{
+    padding: 50px 20px;
+    background-color:var(--color-primario);
+    text-align: center;
+}
+
+.reseña{
+    background-color:rgb(35, 70, 67);
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:rgb(85, 114, 104);
+    border-width: 1px;
+}
+
+.seccion-titulo{
+    color: white;
+ }
+
+ .seccion-his-icono{
+    color: rgb(250, 151, 80);
+    font-size: 16px;
+}
+
+.seccion-his-parrafo{
+    color: var(--color-secundario);
+    font-size: 12px; 
+}
+
+.seccion-his-autor{
+    color: white;
+    font-size: small;
+}
+
+.seccion-articulos{
+    padding: 60px 20px;
+}
